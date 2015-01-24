@@ -8,10 +8,12 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = "FoodGalore", name = "Food Galore", version = "1.7.10-1.0")
 public class FoodGalore
 {
+    @Mod.Instance("FoodGalore")
+    public static FoodGalore instance;
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent evt)
     {
-        
+
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent evt)

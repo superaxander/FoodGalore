@@ -1,0 +1,11 @@
+[18:40:59] [main/INFO]: Setting user: Player850
+[18:41:00] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:41:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Food Galore
+[18:41:09] [Sound Library Loader/INFO]: Sound engine started
+[18:41:10] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:41:10] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:41:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Food Galore
+[18:41:10] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:41:11] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:41:11] [Sound Library Loader/INFO]: Sound engine started
+[18:41:43] [Client thread/INFO]: Stopping!
