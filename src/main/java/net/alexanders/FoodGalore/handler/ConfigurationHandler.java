@@ -1,4 +1,4 @@
-package net.alexanders.FoodGalore.configuration;
+package net.alexanders.FoodGalore.handler;
 
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
