@@ -1,4 +1,4 @@
-package net.alexanders.FoodGalore.proxy;
+package net.alexanders.foodgalore.proxy;
 
 public abstract class CommonProxy implements IProxy
 {

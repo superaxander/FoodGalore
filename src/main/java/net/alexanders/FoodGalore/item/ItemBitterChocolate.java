@@ -4,7 +4,6 @@ public class ItemBitterChocolate extends ItemFG
 {
     public ItemBitterChocolate()
     {
-        super();
-        this.setUnlocalizedName("chocolate");
+        this.setUnlocalizedName("bitterChocolate");
     }
 }

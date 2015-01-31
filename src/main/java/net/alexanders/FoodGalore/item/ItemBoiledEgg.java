@@ -1,5 +1,13 @@
-package net.alexanders.FoodGalore.item;
+package net.alexanders.foodgalore.item;
 
-public class ItemBoiledEgg {
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemFood;
+
+public class ItemBoiledEgg extends ItemFGFood {
+    public ItemBoiledEgg(int hungerAmount, float saturation,boolean isWolfFood )
+    {
+        super(hungerAmount, saturation, isWolfFood);
+        this.setUnlocalizedName("boiledEgg");
+    }
 
 }

@@ -2,17 +2,18 @@ package net.alexanders.foodgalore.item;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import net.alexanders.foodgalore.FoodGalore;
 import net.alexanders.foodgalore.reference.Reference;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
 
-public class ItemFGFood extends Item
+public class ItemFGFood extends ItemFood
 {
-    public ItemFGFood()
+    public ItemFGFood(int hungerAmount, float saturation, boolean isWolfFood)
     {
-        super();
-
+        super(hungerAmount, saturation, isWolfFood);
+        this.setCreativeTab(FoodGalore.tabCustom);
     }
     @Override
     public String getUnlocalizedName()

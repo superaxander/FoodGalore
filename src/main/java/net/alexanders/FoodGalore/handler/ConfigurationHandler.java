@@ -1,8 +1,8 @@
-package net.alexanders.FoodGalore.handler;
+package net.alexanders.foodgalore.handler;
 
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import net.alexanders.FoodGalore.reference.Reference;
+import net.alexanders.foodgalore.reference.Reference;
 import net.minecraftforge.common.config.Configuration;
 
 import java.io.File;

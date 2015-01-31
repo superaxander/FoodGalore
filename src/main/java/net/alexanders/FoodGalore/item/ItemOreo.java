@@ -4,7 +4,7 @@ public class ItemOreo extends ItemFGFood {
     public ItemOreo(int hungerAmount, float saturation, boolean isWolfFood)
     {
         super(hungerAmount, saturation, isWolfFood);
-        this.setUnlocalizedName("boiledEgg");
+        this.setUnlocalizedName("oreoCookie");
     }
 
 }

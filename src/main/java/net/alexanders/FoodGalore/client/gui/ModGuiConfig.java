@@ -1,8 +1,8 @@
-package net.alexanders.FoodGalore.client.gui;
+package net.alexanders.foodgalore.client.gui;
 
 import cpw.mods.fml.client.config.GuiConfig;
-import net.alexanders.FoodGalore.handler.ConfigurationHandler;
-import net.alexanders.FoodGalore.reference.Reference;
+import net.alexanders.foodgalore.handler.ConfigurationHandler;
+import net.alexanders.foodgalore.reference.Reference;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;
 import net.minecraftforge.common.config.Configuration;

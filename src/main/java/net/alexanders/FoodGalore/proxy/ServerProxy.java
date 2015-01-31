@@ -1,4 +1,4 @@
-package net.alexanders.FoodGalore.proxy;
+package net.alexanders.foodgalore.proxy;
 
 
 public class ServerProxy extends CommonProxy

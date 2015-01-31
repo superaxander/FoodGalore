@@ -1,0 +1,8 @@
+item.foodgalore:boiledEgg.name=Boiled Egg
+item.foodgalore:chocolate.name=Chocolate
+item.foodgalore:bitterChocolate.name=Bitter Chocolate
+item.foodgalore:oreoCookie.name=Oreo
+item.foodgalore:lettuce.name=Lettuce
+item.foodgalore:LettuceSeeds.name=Lettuce Seeds
+tile.foodgalore:LettuceCrop=Lettuce
+itemGroup.FoodGalore=Food Galore
