@@ -2,65 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25700d49-8bc1-4887-a3ce-6495a8f6e941" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemFGSeeds.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemLettuce.java" />
-      <change type="DELETED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\eclipse\logs\2015-01-24-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\eclipse\logs\2015-01-24-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\eclipse\logs\2015-01-24-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\eclipse\logs\2015-01-24-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\eclipse\logs\2015-01-24-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\eclipse\logs\2015-01-24-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\eclipse\logs\2015-01-24-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\eclipse\logs\2015-01-25-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\eclipse\logs\2015-01-25-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\out\production\FoodGalore\net\alexanders\FoodGalore\configuration\ConfigurationHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\item\FGCreativetab.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\item\ItemCropLettuce.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\eclipse\config\FoodGalore.cfg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\com\example\examplemod\ExampleMod.java" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\item\ItemFGFoodCrop.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\eclipse\config\FoodGalore.cfg" afterPath="$PROJECT_DIR$/eclipse/config/foodgalore.cfg" />
-      <change type="MOVED" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\client\gui\GUIFactory.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/client/gui/GuiFactory.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\out\production\FoodGalore\net\alexanders\foodgalore\proxy\ClientProxy.class" afterPath="$PROJECT_DIR$/out/production/FoodGalore/net/alexanders/foodgalore/proxy/ClientProxy.class" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\out\production\FoodGalore\net\alexanders\foodgalore\proxy\CommonProxy.class" afterPath="$PROJECT_DIR$/out/production/FoodGalore/net/alexanders/foodgalore/proxy/CommonProxy.class" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\out\production\FoodGalore\net\alexanders\foodgalore\FoodGalore.class" afterPath="$PROJECT_DIR$/out/production/FoodGalore/net/alexanders/foodgalore/FoodGalore.class" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\out\production\FoodGalore\net\alexanders\foodgalore\proxy\IProxy.class" afterPath="$PROJECT_DIR$/out/production/FoodGalore/net/alexanders/foodgalore/proxy/IProxy.class" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\out\production\FoodGalore\net\alexanders\foodgalore\reference\Reference.class" afterPath="$PROJECT_DIR$/out/production/FoodGalore/net/alexanders/foodgalore/reference/Reference.class" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\out\production\FoodGalore\net\alexanders\foodgalore\proxy\ServerProxy.class" afterPath="$PROJECT_DIR$/out/production/FoodGalore/net/alexanders/foodgalore/proxy/ServerProxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\proxy\ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/proxy/ClientProxy.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\proxy\CommonProxy.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/proxy/CommonProxy.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\block\BlockCropLettuce.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/block/BlockCropLettuce.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\block\BlockFGCrop.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/block/BlockFGCrop.java" />
       <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\handler\ConfigurationHandler.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/handler/ConfigurationHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FoodGalore.iml" afterPath="$PROJECT_DIR$/FoodGalore.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FoodGalore.ipr" afterPath="$PROJECT_DIR$/FoodGalore.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FoodGalore.iws" afterPath="$PROJECT_DIR$/FoodGalore.iws" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\FoodGalore.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/FoodGalore.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\proxy\IProxy.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/proxy/IProxy.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\item\ItemBoiledEgg.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemBoiledEgg.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\item\ItemChocolate.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemChocolate.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\item\ItemFGFood.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemFGFood.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\item\ItemOreo.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemOreo.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\utility\LoggerHelper.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/utility/LoggerHelper.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\client\gui\ModGuiConfig.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/client/gui/ModGuiConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/init/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/init/ModItems.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\reference\Reference.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/reference/Reference.java" />
-      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\proxy\ServerProxy.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/proxy/ServerProxy.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\item\ItemHamburger.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemHamburger.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\item\ItemHamburgerLettuce.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemHamburgerLettuce.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\item\ItemHamburgerLettuceTomato.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemHamburgerLettuceTomato.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\item\ItemHamburgerTomato.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemHamburgerTomato.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Stekelenburg\Documents\alex\foodgalore\FoodGalore\src\main\java\net\alexanders\foodgalore\init\ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/init/ModItems.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/cache.properties" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/cache.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/foodgalore/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/foodgalore/lang/en_US.lang" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/gradle.log" afterPath="$PROJECT_DIR$/.gradle/gradle.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FoodGalore/mcmod.info" afterPath="$PROJECT_DIR$/out/production/FoodGalore/mcmod.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mcmod.info" afterPath="$PROJECT_DIR$/src/main/resources/mcmod.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/options.txt" afterPath="$PROJECT_DIR$/eclipse/options.txt" />
     </list>
     <ignored path="FoodGalore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -123,106 +85,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FoodGalore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/FoodGalore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reference.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/reference/Reference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockFGCrop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/block/BlockFGCrop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="1292">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1743#1744#0" expanded="true" />
-                <element signature="e#1765#1766#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemFGSeeds.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemFGSeeds.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="969">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemLettuceSeeds.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemLettuceSeeds.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemLettuce.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemLettuce.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemFG.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemFG.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-              <caret line="37" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="en_US.lang" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/assets/foodgalore/lang/en_US.lang">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockCropLettuce.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/block/BlockCropLettuce.java">
+      <file leaf-file-name="ConfigurationHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/handler/ConfigurationHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11785095" vertical-offset="0" max-vertical-offset="577">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="901">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemHamburger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemHamburger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemFGFood.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemFGFood.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoodGalore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/FoodGalore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1088">
+              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mcmod.info" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.11888112" vertical-offset="255" max-vertical-offset="1173">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -230,8 +160,28 @@
       <file leaf-file-name="ModItems.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/init/ModItems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-              <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1870">
+              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemHamburgerLettuce.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemHamburgerLettuce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemHamburgerLettuceTomato.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemHamburgerLettuceTomato.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -246,17 +196,24 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
         <option value="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemFGFoodCrop.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemCropLettuce.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemFGSeeds.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemLettuce.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/foodgalore/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/block/BlockFGCrop.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemLettuceSeeds.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/init/ModItems.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/block/BlockCropLettuce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/block/BlockCropTomato.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemHamburgerTomato.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemHamburgerLettuce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemHamburgerLettuceTomato.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemHamburger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/handler/ConfigurationHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/init/ModItems.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/foodgalore/lang/en_US.lang" />
+        <option value="$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/FoodGalore.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -315,7 +272,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -327,7 +284,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -393,6 +349,14 @@
               <option name="myItemId" value="foodgalore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="items" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -420,7 +384,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lang" />
+              <option name="myItemId" value="textures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,7 +406,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -473,10 +437,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="foodgalore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reference" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -566,7 +526,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="block" />
+              <option name="myItemId" value="handler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -592,7 +552,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="examplemod" />
+              <option name="myItemId" value="foodgalore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="block" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -639,6 +603,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodGalore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodGalore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net.alexanders.foodgalore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="init" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -752,6 +734,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -766,6 +749,11 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.alexanders.foodgalore.item" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Minecraft Client">
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -981,15 +969,14 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32402235" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32402235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32402235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -999,6 +986,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1027,11 +1015,31 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/block/BlockCropLettuce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="408">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#328#329#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+            <element signature="e#427#428#0" expanded="false" />
+            <element signature="e#466#467#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/block/BlockCropTomato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="374">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/FoodGalore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="714">
           <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,7 +1047,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="323">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/block/BlockFGCrop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="1292">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemFGSeeds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="969">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemLettuceSeeds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="323">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemLettuce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="306">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemFG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="697">
+          <caret line="37" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/foodgalore/lang/en_US.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/block/BlockCropLettuce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#328#329#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+            <element signature="e#427#428#0" expanded="false" />
+            <element signature="e#466#467#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/init/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="612">
+          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/FoodGalore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="714">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/reference/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="323">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1047,11 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="901">
           <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1743#1744#0" expanded="true" />
-            <element signature="e#1765#1766#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,7 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3035" max-vertical-offset="3570">
           <caret line="225" column="68" selection-start-line="225" selection-start-column="68" selection-end-line="225" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,28 +1158,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="986">
           <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+            <element signature="e#427#428#0" expanded="false" />
+            <element signature="e#466#467#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1173">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32409012" vertical-offset="0" max-vertical-offset="577">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,15 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemFGFood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20623916" vertical-offset="0" max-vertical-offset="697">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,10 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="21487" max-vertical-offset="40035">
           <caret line="1478" column="18" selection-start-line="1478" selection-start-column="18" selection-end-line="1478" selection-end-column="18" />
-          <folding>
-            <element signature="e#75631#75632#0" expanded="false" />
-            <element signature="e#75658#75659#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1153,7 +1205,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.3813084" vertical-offset="20919" max-vertical-offset="22593">
           <caret line="1508" column="19" selection-start-line="1508" selection-start-column="8" selection-end-line="1508" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1161,7 +1212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7564403" vertical-offset="2703" max-vertical-offset="3570">
           <caret line="225" column="68" selection-start-line="225" selection-start-column="68" selection-end-line="225" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,7 +1219,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07962529" vertical-offset="0" max-vertical-offset="1088">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1177,29 +1226,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/block/BlockCropLettuce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#328#329#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+            <element signature="e#427#428#0" expanded="false" />
+            <element signature="e#466#467#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/foodgalore/textures/blocks/TomatoCrop4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/foodgalore/textures/blocks/TomatoCrop3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/block/BlockCropTomato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2357019" vertical-offset="0" max-vertical-offset="577">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/FoodGalore.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemTomato.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.058925476" vertical-offset="0" max-vertical-offset="577">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/init/ModItems.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemFGSeeds.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
-          <folding />
+        <state vertical-scroll-proportion="0.5303293" vertical-offset="85" max-vertical-offset="969">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/block/BlockFGCrop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.305026" vertical-offset="147" max-vertical-offset="1037">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemLettuceSeeds.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+        <state vertical-scroll-proportion="0.058925476" vertical-offset="0" max-vertical-offset="577">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1209,7 +1294,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemLettuce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+        <state vertical-scroll-proportion="0.26516464" vertical-offset="0" max-vertical-offset="577">
           <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding />
         </state>
@@ -1217,53 +1302,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemFG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+        <state vertical-scroll-proportion="0.70537263" vertical-offset="120" max-vertical-offset="697">
           <caret line="37" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/init/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33275563" vertical-offset="607" max-vertical-offset="3128">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemHamburgerTomato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemHamburgerLettuceTomato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemHamburger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/handler/ConfigurationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="901">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemHamburgerLettuce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/init/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1870">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/foodgalore/lang/en_US.lang">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemFGSeeds.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/item/ItemFood.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="969">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.513986" vertical-offset="131" max-vertical-offset="1904">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/item/ItemFGFood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/FoodGalore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1088">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/block/BlockFGCrop.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="1292">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1743#1744#0" expanded="true" />
-            <element signature="e#1765#1766#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/alexanders/foodgalore/block/BlockCropLettuce.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11785095" vertical-offset="0" max-vertical-offset="577">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.11888112" vertical-offset="255" max-vertical-offset="1173">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -13,6 +13,7 @@ import net.alexanders.foodgalore.init.ModItems;
 import net.alexanders.foodgalore.proxy.*;
 import net.alexanders.foodgalore.reference.*;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
@@ -28,7 +29,13 @@ public class FoodGalore
         @Override
         @SideOnly(Side.CLIENT)
         public Item getTabIconItem() {
-            return ModItems.boiledEgg;
+            if(ConfigurationHandler.enableBoiledEgg){
+                return ModItems.boiledEgg;
+            }else if(ConfigurationHandler.enableHamburger){
+                return ModItems.hamburger;
+            }else{
+                return Items.apple;
+            }
         }
     };
     @Mod.EventHandler

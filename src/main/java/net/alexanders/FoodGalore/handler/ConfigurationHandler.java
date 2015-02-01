@@ -10,7 +10,12 @@ import java.io.File;
 public class ConfigurationHandler
 {
     public static Configuration configuration;
-    public static boolean testValue = false;
+    public static boolean enableOreo = true;
+    public static boolean enableTomato = true;
+    public static boolean enableLettuce = true;
+    public static boolean enableHamburger = true;
+    public static boolean enableBoiledEgg = true;
+    public static boolean enableChocolate = true;
 
     public static void init(File configFile)
     {
@@ -24,8 +29,12 @@ public class ConfigurationHandler
 
     private static void loadConfiguration()
     {
-        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value");
-
+        enableOreo = configuration.getBoolean("enableOreo", Configuration.CATEGORY_GENERAL, true, "");
+        enableTomato = configuration.getBoolean("enableTomato", Configuration.CATEGORY_GENERAL, true, "");
+        enableLettuce = configuration.getBoolean("enableLettuce", Configuration.CATEGORY_GENERAL, true, "");
+        enableHamburger = configuration.getBoolean("enableHamburger", Configuration.CATEGORY_GENERAL, true, "");
+        enableBoiledEgg = configuration.getBoolean("enableBoiledEgg", Configuration.CATEGORY_GENERAL, true, "");
+        enableChocolate = configuration.getBoolean("enableChocolate", Configuration.CATEGORY_GENERAL, true, "");
         if (configuration.hasChanged())
         {
             configuration.save();

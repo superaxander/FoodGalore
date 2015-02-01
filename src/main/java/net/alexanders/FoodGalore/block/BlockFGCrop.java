@@ -2,21 +2,19 @@ package net.alexanders.foodgalore.block;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import net.alexanders.foodgalore.FoodGalore;
-import net.alexanders.foodgalore.init.ModItems;
 import net.alexanders.foodgalore.reference.Reference;
 import net.minecraft.block.BlockCrops;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.item.Item;
 import net.minecraft.util.IIcon;
 
 import java.util.Random;
 
 public class BlockFGCrop extends BlockCrops
 {
-    public BlockFGCrop()
+    public int growthstates = 4;
+    public BlockFGCrop(int states)
     {
-
+        this.growthstates = states;
     }
     @SideOnly(Side.CLIENT)
     private IIcon[] iconarray;
@@ -36,7 +34,7 @@ public class BlockFGCrop extends BlockCrops
     public void registerBlockIcons(IIconRegister iconRegister)
     {
 
-        this.iconarray = new IIcon[4];
+        this.iconarray = new IIcon[this.growthstates];
         for(int i = 0; i < this.iconarray.length; i++)
         {
             this.iconarray[i] = iconRegister.registerIcon(String.format("%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName())) + (i+1));

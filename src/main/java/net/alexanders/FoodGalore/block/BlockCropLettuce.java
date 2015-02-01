@@ -6,8 +6,8 @@ import net.minecraft.item.Item;
 
 public class BlockCropLettuce extends BlockFGCrop {
     public BlockCropLettuce() {
+        super(4);
         this.setBlockName("LettuceCrop");
-
     }
 
     @Override
