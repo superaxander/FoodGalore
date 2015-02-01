@@ -15,6 +15,8 @@ import net.alexanders.foodgalore.reference.*;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class FoodGalore
@@ -44,6 +46,8 @@ public class FoodGalore
         ConfigurationHandler.init(evt.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         ModItems.init();
+        MinecraftForge.addGrassSeed(new ItemStack(ModItems.lettuceseeds), 10);
+        MinecraftForge.addGrassSeed(new ItemStack(ModItems.tomatoseeds), 10);
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent evt)

@@ -1,41 +1,22 @@
-[13:59:26] [main/INFO]: Setting user: Player112
-[13:59:28] [Client thread/INFO]: LWJGL Version: 2.9.1
-[13:59:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Food Galore
-[13:59:41] [Sound Library Loader/INFO]: Sound engine started
-[13:59:43] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[13:59:43] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[13:59:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Food Galore
-[13:59:44] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[13:59:44] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[13:59:45] [Sound Library Loader/INFO]: Sound engine started
-[13:59:59] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[13:59:59] [Server thread/INFO]: Generating keypair
-[14:00:00] [Server thread/INFO]: Preparing start region for level 0
-[14:00:01] [Server thread/INFO]: Changing view distance to 8, from 10
-[14:00:01] [Server thread/INFO]: Player112[local:E:a8199e22] logged in with entity id 0 at (-785.5, 56.0, -742.5)
-[14:00:01] [Server thread/INFO]: Player112 joined the game
-[14:00:04] [Server thread/INFO]: Player112 has just earned the achievement [Taking Inventory]
-[14:00:04] [Client thread/INFO]: [CHAT] Player112 has just earned the achievement [Taking Inventory]
-[14:00:20] [Client thread/INFO]: [CHAT] foodgalore:Lettuce_Block, foodgalore:Lettuce, foodgalore:Lettuce_Seeds
-[14:00:21] [Server thread/INFO]: [Player112: Given [Lettuce] * 1 to Player112]
-[14:00:21] [Client thread/INFO]: [CHAT] Given [Lettuce] * 1 to Player112
-[14:00:26] [Client thread/INFO]: [CHAT] foodgalore:Tomato_Seeds, foodgalore:Tomato, foodgalore:Tomato_Block
-[14:00:27] [Client thread/INFO]: [CHAT] foodgalore:Tomato_Seeds, foodgalore:Tomato, foodgalore:Tomato_Block
-[14:00:27] [Client thread/INFO]: [CHAT] foodgalore:Tomato_Seeds, foodgalore:Tomato, foodgalore:Tomato_Block
-[14:00:28] [Server thread/INFO]: [Player112: Given [Tomato] * 1 to Player112]
-[14:00:28] [Client thread/INFO]: [CHAT] Given [Tomato] * 1 to Player112
-[14:00:33] [Server thread/INFO]: [Player112: Given [Tomato] * 1 to Player112]
-[14:00:33] [Client thread/INFO]: [CHAT] Given [Tomato] * 1 to Player112
-[14:00:43] [Server thread/INFO]: [Player112: Given [Farmland] * 1 to Player112]
-[14:00:43] [Client thread/INFO]: [CHAT] Given [Farmland] * 1 to Player112
-[14:01:13] [Server thread/INFO]: Saving and pausing game...
-[14:01:14] [Server thread/INFO]: Saving chunks for level 'Config Test'/Overworld
-[14:01:14] [Server thread/INFO]: Saving chunks for level 'Config Test'/Nether
-[14:01:14] [Server thread/INFO]: Saving chunks for level 'Config Test'/The End
-[14:01:14] [Server thread/INFO]: Stopping server
-[14:01:14] [Server thread/INFO]: Saving players
-[14:01:14] [Server thread/INFO]: Saving worlds
-[14:01:14] [Server thread/INFO]: Saving chunks for level 'Config Test'/Overworld
-[14:01:14] [Server thread/INFO]: Saving chunks for level 'Config Test'/Nether
-[14:01:14] [Server thread/INFO]: Saving chunks for level 'Config Test'/The End
-[14:01:30] [Client thread/INFO]: Stopping!
+[14:54:57] [main/INFO]: Setting user: Player883
+[14:54:58] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:55:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Food Galore
+[14:55:05] [Sound Library Loader/INFO]: Sound engine started
+[14:55:07] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:55:08] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:55:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Food Galore
+[14:55:08] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:55:08] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:55:09] [Sound Library Loader/INFO]: Sound engine started
+[14:55:15] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[14:55:15] [Server thread/INFO]: Generating keypair
+[14:55:16] [Server thread/INFO]: Preparing start region for level 0
+[14:55:17] [Server thread/INFO]: Preparing spawn area: 45%
+[14:55:18] [Server thread/INFO]: Changing view distance to 8, from 10
+[14:55:18] [Server thread/INFO]: Player883[local:E:4fcba855] logged in with entity id 319 at (-87.57658182725994, 86.0, 259.7747097470756)
+[14:55:18] [Server thread/INFO]: Player883 joined the game
+[14:57:24] [Client thread/INFO]: Stopping!
+[14:57:24] [Server thread/INFO]: Stopping server
+[14:57:24] [Server thread/INFO]: Saving players
+[14:57:24] [Server thread/INFO]: Saving worlds
+[14:57:24] [Server thread/INFO]: Saving chunks for level 'testworld'/Overworld

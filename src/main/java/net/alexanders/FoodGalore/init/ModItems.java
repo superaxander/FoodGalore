@@ -91,9 +91,11 @@ public class ModItems
             GameRegistry.addShapelessRecipe(new ItemStack(hamburger), new ItemStack(Items.bread), new ItemStack(Items.cooked_beef));
             if (ConfigurationHandler.enableTomato) {
                 GameRegistry.addShapelessRecipe(new ItemStack(hamburgertomato), new ItemStack(hamburger), new ItemStack(tomato));
+                GameRegistry.addShapelessRecipe(new ItemStack(hamburgertomato), new ItemStack(Items.bread), new ItemStack(Items.cooked_beef), new ItemStack(tomato));
             }
             if (ConfigurationHandler.enableLettuce) {
                 GameRegistry.addShapelessRecipe(new ItemStack(hamburgerlettuce), new ItemStack(hamburger), new ItemStack(lettuce));
+                GameRegistry.addShapelessRecipe(new ItemStack(hamburgerlettuce), new ItemStack(Items.bread), new ItemStack(Items.cooked_beef), new ItemStack(lettuce));
             }
             if (ConfigurationHandler.enableLettuce && ConfigurationHandler.enableTomato){
                 GameRegistry.addShapelessRecipe(new ItemStack(hamburgerlettucetomato), new ItemStack(hamburgertomato), new ItemStack(lettuce));
