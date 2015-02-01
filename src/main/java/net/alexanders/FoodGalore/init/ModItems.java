@@ -1,7 +1,6 @@
 package net.alexanders.foodgalore.init;
 
 import cpw.mods.fml.common.registry.GameRegistry;
-import jdk.nashorn.internal.runtime.regexp.joni.Config;
 import net.alexanders.foodgalore.block.BlockCropLettuce;
 import net.alexanders.foodgalore.block.BlockCropTomato;
 import net.alexanders.foodgalore.block.BlockFGCrop;
