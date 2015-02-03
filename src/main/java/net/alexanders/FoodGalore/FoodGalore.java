@@ -9,6 +9,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.alexanders.foodgalore.handler.ConfigurationHandler;
+import net.alexanders.foodgalore.handler.ModLivingDropsEvent;
 import net.alexanders.foodgalore.init.ModItems;
 import net.alexanders.foodgalore.proxy.*;
 import net.alexanders.foodgalore.reference.*;
@@ -48,6 +49,8 @@ public class FoodGalore
         ModItems.init();
         MinecraftForge.addGrassSeed(new ItemStack(ModItems.lettuceseeds), 10);
         MinecraftForge.addGrassSeed(new ItemStack(ModItems.tomatoseeds), 10);
+        MinecraftForge.EVENT_BUS.register(new ModLivingDropsEvent());
+
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent evt)

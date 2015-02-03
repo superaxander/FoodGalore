@@ -7,6 +7,7 @@ import net.alexanders.foodgalore.block.BlockFGCrop;
 import net.alexanders.foodgalore.handler.ConfigurationHandler;
 import net.alexanders.foodgalore.item.*;
 import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 public class ModItems
@@ -25,6 +26,15 @@ public class ModItems
     public static final ItemFGFood hamburgerlettuce = new ItemHamburgerLettuce();
     public static final ItemFGFood hamburgertomato = new ItemHamburgerTomato();
     public static final ItemFGFood hamburgerlettucetomato = new ItemHamburgerLettuceTomato();
+    public static final ItemFG syrup = new ItemSyrup();
+    public static final ItemFGFood pancakes = new ItemPancakes();
+    public static final ItemFGFood pancakeswithsyrup = new ItemPancakesSyrup();
+    public static final ItemFG rennet = new ItemRennet();
+    public static final ItemFGFood cheese = new ItemCheese();
+    public static final ItemFGFood cheeseburger = new ItemCheeseBurger();
+    public static final ItemFGFood cheeseburgertomato = new ItemCheeseBurgerTomato();
+    public static final ItemFGFood cheeseburgerlettuce = new ItemCheeseBurgerLettuce();
+    public static final ItemFGFood cheeseburgerlettucetomato = new ItemCheeseBurgerLettuceTomato();
 
     public static void init()
     {
@@ -62,7 +72,25 @@ public class ModItems
             GameRegistry.registerItem(hamburger, "Hamburger");
             if(ConfigurationHandler.enableLettuce && ConfigurationHandler.enableHamburger) {
                 GameRegistry.registerItem(hamburgerlettucetomato, "Hamburger_lettuce_tomato");
+                if(ConfigurationHandler.enableCheese){
+                    GameRegistry.registerItem(cheeseburgerlettuce, "Cheeseburger_lettuce");
+                    GameRegistry.registerItem(cheeseburgertomato, "Cheeseburger_tomato");
+                    GameRegistry.registerItem(cheeseburgerlettucetomato, "Cheeseburger_lettuce_tomato");
+                }
             }
+        }
+        if(ConfigurationHandler.enableSyrup){
+            GameRegistry.registerItem(syrup, "Syrup");
+            if(ConfigurationHandler.enablePancakes){
+                GameRegistry.registerItem(pancakeswithsyrup, "Pancakes_Syrup");
+            }
+        }
+        if(ConfigurationHandler.enablePancakes){
+            GameRegistry.registerItem(pancakes, "Pancakes");
+        }
+        if(ConfigurationHandler.enableCheese){
+            GameRegistry.registerItem(rennet, "Rennet");
+            GameRegistry.registerItem(cheese, "Cheese");
         }
     }
     private static void registerBlocks() {
@@ -92,15 +120,38 @@ public class ModItems
             if (ConfigurationHandler.enableTomato) {
                 GameRegistry.addShapelessRecipe(new ItemStack(hamburgertomato), new ItemStack(hamburger), new ItemStack(tomato));
                 GameRegistry.addShapelessRecipe(new ItemStack(hamburgertomato), new ItemStack(Items.bread), new ItemStack(Items.cooked_beef), new ItemStack(tomato));
+                if(ConfigurationHandler.enableCheese){
+                    GameRegistry.addShapelessRecipe(new ItemStack(cheeseburgertomato), new ItemStack(hamburger), new ItemStack(tomato), new ItemStack(cheese));
+                    GameRegistry.addShapelessRecipe(new ItemStack(cheeseburgertomato), new ItemStack(hamburgertomato), new ItemStack(cheese));
+                    GameRegistry.addShapelessRecipe(new ItemStack(cheeseburgertomato), new ItemStack(cheeseburger), new ItemStack(tomato));
+                    GameRegistry.addShapelessRecipe(new ItemStack(cheeseburgertomato), new ItemStack(Items.bread), new ItemStack(Items.cooked_beef), new ItemStack(tomato), new ItemStack(cheese));
+                }
             }
             if (ConfigurationHandler.enableLettuce) {
                 GameRegistry.addShapelessRecipe(new ItemStack(hamburgerlettuce), new ItemStack(hamburger), new ItemStack(lettuce));
                 GameRegistry.addShapelessRecipe(new ItemStack(hamburgerlettuce), new ItemStack(Items.bread), new ItemStack(Items.cooked_beef), new ItemStack(lettuce));
+                if(ConfigurationHandler.enableCheese){
+                    GameRegistry.addShapelessRecipe(new ItemStack(cheeseburgerlettuce), new ItemStack(hamburger), new ItemStack(lettuce), new ItemStack(cheese));
+                    GameRegistry.addShapelessRecipe(new ItemStack(cheeseburgerlettuce), new ItemStack(cheeseburger), new ItemStack(lettuce));
+                    GameRegistry.addShapelessRecipe(new ItemStack(cheeseburgerlettuce), new ItemStack(hamburgerlettuce), new ItemStack(cheese));
+                    GameRegistry.addShapelessRecipe(new ItemStack(cheeseburgerlettuce), new ItemStack(Items.bread), new ItemStack(Items.cooked_beef), new ItemStack(lettuce), new ItemStack(cheese));
+                }
+            }
+            if(ConfigurationHandler.enableCheese){
+                GameRegistry.addShapelessRecipe(new ItemStack(cheeseburger), new ItemStack(hamburger));
             }
             if (ConfigurationHandler.enableLettuce && ConfigurationHandler.enableTomato){
                 GameRegistry.addShapelessRecipe(new ItemStack(hamburgerlettucetomato), new ItemStack(hamburgertomato), new ItemStack(lettuce));
                 GameRegistry.addShapelessRecipe(new ItemStack(hamburgerlettucetomato), new ItemStack(hamburgerlettuce), new ItemStack(tomato));
                 GameRegistry.addShapelessRecipe(new ItemStack(hamburgerlettucetomato), new ItemStack(Items.bread), new ItemStack(Items.cooked_beef), new ItemStack(lettuce), new ItemStack(tomato));
+                if(ConfigurationHandler.enableCheese){
+                    GameRegistry.addShapelessRecipe(new ItemStack(cheeseburgerlettucetomato), new ItemStack(cheeseburgertomato), new ItemStack(lettuce));
+                    GameRegistry.addShapelessRecipe(new ItemStack(cheeseburgerlettucetomato), new ItemStack(hamburgertomato), new ItemStack(lettuce), new ItemStack(cheese));
+                    GameRegistry.addShapelessRecipe(new ItemStack(cheeseburgerlettucetomato), new ItemStack(cheeseburgerlettuce), new ItemStack(tomato));
+                    GameRegistry.addShapelessRecipe(new ItemStack(cheeseburgerlettucetomato), new ItemStack(hamburgerlettuce), new ItemStack(tomato), new ItemStack(cheese));
+                    GameRegistry.addShapelessRecipe(new ItemStack(cheeseburgerlettucetomato), new ItemStack(cheeseburger), new ItemStack(lettuce), new ItemStack(tomato));
+                    GameRegistry.addShapelessRecipe(new ItemStack(cheeseburgerlettucetomato), new ItemStack(hamburger), new ItemStack(lettuce), new ItemStack(tomato), new ItemStack(cheese));
+                }
             }
         }
         if(ConfigurationHandler.enableTomato) {
@@ -108,6 +159,19 @@ public class ModItems
         }
         if(ConfigurationHandler.enableLettuce) {
             GameRegistry.addShapelessRecipe(new ItemStack(lettuceseeds), new ItemStack(lettuce));
+        }
+        if(ConfigurationHandler.enableSyrup){
+            GameRegistry.addShapelessRecipe(new ItemStack(syrup, 2), new ItemStack(Items.water_bucket), new ItemStack(Items.sugar));
+            if(ConfigurationHandler.enablePancakes){
+                GameRegistry.addShapelessRecipe(new ItemStack(pancakeswithsyrup), new ItemStack(Items.wheat), new ItemStack(Items.milk_bucket), new ItemStack(Items.egg), new ItemStack(syrup));
+                GameRegistry.addShapelessRecipe(new ItemStack(pancakeswithsyrup), new ItemStack(pancakes), new ItemStack(syrup));
+            }
+        }
+        if(ConfigurationHandler.enablePancakes){
+            GameRegistry.addShapelessRecipe(new ItemStack(pancakes), new ItemStack(Items.wheat), new ItemStack(Items.milk_bucket), new ItemStack(Items.egg));
+        }
+        if(ConfigurationHandler.enableCheese){
+            GameRegistry.addShapelessRecipe(new ItemStack(cheese), new ItemStack(rennet), new ItemStack(Items.milk_bucket));
         }
     }
 }
