@@ -3,7 +3,6 @@ package net.alexanders.foodgalore.item;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.alexanders.foodgalore.FoodGalore;
-import net.alexanders.foodgalore.block.BlockCropLettuce;
 import net.alexanders.foodgalore.reference.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -24,6 +23,7 @@ public class ItemFGSeeds extends ItemSeeds implements IPlantable
         super(cropBlock, Blocks.farmland);
         this.setCreativeTab(FoodGalore.tabCustom);
     }
+
 
     @Override
     public String getUnlocalizedName()

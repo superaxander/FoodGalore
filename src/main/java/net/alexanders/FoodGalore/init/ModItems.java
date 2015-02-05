@@ -2,12 +2,12 @@ package net.alexanders.foodgalore.init;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.alexanders.foodgalore.block.BlockCropLettuce;
+import net.alexanders.foodgalore.block.BlockCropTea;
 import net.alexanders.foodgalore.block.BlockCropTomato;
 import net.alexanders.foodgalore.block.BlockFGCrop;
 import net.alexanders.foodgalore.handler.ConfigurationHandler;
 import net.alexanders.foodgalore.item.*;
 import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 public class ModItems
@@ -35,6 +35,11 @@ public class ModItems
     public static final ItemFGFood cheeseburgertomato = new ItemCheeseBurgerTomato();
     public static final ItemFGFood cheeseburgerlettuce = new ItemCheeseBurgerLettuce();
     public static final ItemFGFood cheeseburgerlettucetomato = new ItemCheeseBurgerLettuceTomato();
+    public static final BlockFGCrop teacrop = new BlockCropTea();
+    public static final ItemFGSeeds teaseeds = new ItemTeaSeeds();
+    public static final ItemFG tealeaf = new ItemTeaLeaf();
+    public static final ItemFGFood coldtea = new ItemColdTea();
+    public static final ItemFGFood tea = new ItemTea();
 
     public static void init()
     {
@@ -92,6 +97,12 @@ public class ModItems
             GameRegistry.registerItem(rennet, "Rennet");
             GameRegistry.registerItem(cheese, "Cheese");
         }
+        if(ConfigurationHandler.enableTea){
+            GameRegistry.registerItem(tealeaf, "Tea_Leaf");
+            GameRegistry.registerItem(teaseeds, "Tea_Seeds");
+            GameRegistry.registerItem(tea, "Tea");
+            GameRegistry.registerItem(coldtea, "Tea_Crop");
+        }
     }
     private static void registerBlocks() {
         if (ConfigurationHandler.enableLettuce) {
@@ -99,6 +110,9 @@ public class ModItems
         }
         if (ConfigurationHandler.enableTomato){
             GameRegistry.registerBlock(tomatocrop, "Tomato_Block");
+        }
+        if (ConfigurationHandler.enableTea){
+            GameRegistry.registerBlock(teacrop, "Tea_Block");
         }
     }
     private static void registerCraftingRecipes()
@@ -159,6 +173,11 @@ public class ModItems
         }
         if(ConfigurationHandler.enableLettuce) {
             GameRegistry.addShapelessRecipe(new ItemStack(lettuceseeds), new ItemStack(lettuce));
+        }
+        if(ConfigurationHandler.enableTea){
+            GameRegistry.addShapelessRecipe(new ItemStack(teaseeds), new ItemStack(tealeaf));
+            GameRegistry.addShapelessRecipe(new ItemStack(coldtea), new ItemStack(Items.water_bucket), new ItemStack(tealeaf));
+            GameRegistry.addSmelting(coldtea, new ItemStack(tea), 2);
         }
         if(ConfigurationHandler.enableSyrup){
             GameRegistry.addShapelessRecipe(new ItemStack(syrup, 2), new ItemStack(Items.water_bucket), new ItemStack(Items.sugar));

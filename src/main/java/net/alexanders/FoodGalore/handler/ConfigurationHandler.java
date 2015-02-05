@@ -19,6 +19,7 @@ public class ConfigurationHandler
     public static boolean enableSyrup = true;
     public static boolean enablePancakes = true;
     public static boolean enableCheese = true;
+    public static boolean enableTea = true;
     public static final String CATEGORY_CROPS = "crops";
     public static final String CATEGORY_FOODITEMS = "food";
 
@@ -49,6 +50,7 @@ public class ConfigurationHandler
         enableSyrup = configuration.getBoolean("enableSyrup", CATEGORY_FOODITEMS, true, "");
         enablePancakes = configuration.getBoolean("enablePancakes", CATEGORY_FOODITEMS, true, "");
         enableCheese = configuration.getBoolean("enableCheese", CATEGORY_FOODITEMS, true, "");
+        enableTea = configuration.getBoolean("enableTea", CATEGORY_CROPS, true, "");
         configuration.setCategoryRequiresMcRestart(CATEGORY_CROPS, true);
         configuration.setCategoryRequiresMcRestart(CATEGORY_FOODITEMS, true);
         if (configuration.hasChanged())
